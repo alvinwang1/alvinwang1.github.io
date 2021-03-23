@@ -629,6 +629,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  
 }
 .container-nm{
     width: 77%;
@@ -644,6 +645,7 @@ pre code {
     padding-left: 0px;
     margin-top: -80px;
     margin-left:170px;
+    margin-bottom: -20px;
     
 }
 .containerfill{
@@ -10560,13 +10562,18 @@ a.text-dark:hover, a.text-dark:focus {
 ------------------------- */
 
 .featurette-divider {
-  margin: 2rem 0; /* Space out the Bootstrap <hr> more */
+    
+  margin: 1rem 0;
+  margin-bottom:120px;
+  margin-top: 50px; /* Space out the Bootstrap <hr> more */
 }
 
 .featurette-divider-nm {
   margin: 1rem 0;
   margin-left: 150px;
   margin-right: 150px;
+  margin-bottom:120px;
+  margin-top: 60px;
 }
 /* Thin out the marketing headings */
 .featurette-heading {
@@ -10678,3 +10685,4 @@ a.text-dark:hover, a.text-dark:focus {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
